@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+header{
+    background: url('../img/bg.jpg') no-repeat center center;
+    height: 600px;
+    background-size: cover;
+}
+header #head{
+    text-align: left;
+    padding: 150px 60px;
+}
+#head .sitetitle{
+    color: #FFF;
+    background-color: #41658e;
+    width: 50%;
+    padding:20px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#head .morebtn{
+    padding: 10px 8px;
+    color: #FFF;
+    font-size:14px;
+    background:none;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+}
+#services_sec{
+    background-color: #EEE;
+    padding:30px 20px;
+    min-height: 500px;
+}
+.sechead{
+    color: #41658e;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+.headhr{
+    border: 1px solid #CCCC;
+    width:10%;
+    margin:auto;
+    margin-bottom: 30px;
+}
+#services_sec .service{
+    float:left;
+    width:32.333333%;
+    border: 1px solid #CCC;
+    padding:18px;
+    border-radius: 8px;
+}
+#services_sec .service:hover{
+    background-color:   #41658e;
+    color: #FFF;
+    cursor: pointer;
+}
+#services_sec .service:hover .num {
+    background-color: #FFF;
+    Color: #41658e;
+}
+#services_sec .service:hover .serviceName {
+    color: #FFF;
+}
+#services_sec .service:hover .servicedescr {
+    color: #FFF;
+}
+#services_sec .service2, #services_sec .service3 {
+    margin-left:1.5%;
+}
+
+.service .num{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #41658e;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom:15px;
+
+}
+.service .serviceName{
+    color:#41658e;
+    font-size:25px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.service .servicedescr{
+    line-height: 1.5;
+    text-align: justify;
+    color: #525d54;
+}
